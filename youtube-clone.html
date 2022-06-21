@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Youtube Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/video.css">
+
+</head>
+
+
+
+
+
+<body>
+   
+    <div class="header">
+        <div class="left-section">
+           <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+           <a href="http://127.0.0.1:5500/youtube-clone.html"><img class="youtube-logo" src="icons/youtube-logo.svg"></a>
+        </div>
+
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search-icon" src="icons/search.svg">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+
+        <div class="right-section">
+            <div class="upload-button">
+                <img class="upload-icon" src="icons/upload.svg">
+                <div class="tooltip">Upload</div>
+            </div>
+            <div class="youtube-apps-button">
+                <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+                <div class="tooltip">Youtube apps</div>
+            </div>
+            <div class="notifications-button">
+                <div class="notifications">
+                    <div>
+                        <img class="notification-icon" src="icons/notifications.svg">
+                        <div class="notification-count">5</div>
+                    </div>
+                    <div class="tooltip">Notifications</div>
+                </div>
+            </div>
+            <img class="user-picture" src="icons/my.jpg">
+        </div>
+    </div>
+    <div class="sidebar">
+        <div class="sidebar-link">
+            <img src="icons/home.svg">
+            <div>Home</div>
+        </div>
+
+        <div class="sidebar-link">
+            <img src="icons/subscriptions.svg">
+            <div>Subscriptions</div>
+        </div>
+
+        <div class="sidebar-link">
+            <img src="icons/originals.svg">
+            <div>Originals</div>
+        </div>
+
+        <div class="sidebar-link">
+            <img src="icons/library.svg">
+            <div>Library</div>
+        </div>
+    </div>
+    <main>
+        <div class="video-grid">
+            <div class="video-preview">
+                <div class="picture-row">
+                    <a href="https://www.youtube.com/watch?v=J2UyOTS3UCE&t"><img class="image1" src="pictures/image1.jpg"></a>
+                    <div class="keep-hovering">Keep hovering to play</div>
+                    <div class="video-time"> 2:03:29</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/c/MontereyBayAquarium"><img class="profile-picture" src="profile-pictures/image-author1.jpg"></a>
+                    </div>
+                    <div class="video-info">
+                        <a href="https://www.youtube.com/watch?v=J2UyOTS3UCE">
+                            <p class="video-title">2 Hours Of Squid To Relax/Study/Work To | Lofi Hip Hop</p></a>
+                        <a href="https://www.youtube.com/c/MontereyBayAquarium">
+                            <p class="video-author">Monterey Bay Aquarium</p></a>
+                        <p class="video-stats">1.8M views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="picture-row">
+                    <a href="https://www.youtube.com/watch?v=m1XCbkoLijc"><img class="image1" src="pictures/image2.jpg"></a>
+                    <div class="keep-hovering">Keep hovering to play</div>
+                    <div class="video-time"> 4:51:36</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/c/jacksepticeye"><img class="profile-picture" src="profile-pictures/image-author2.jpg"></a>
+                    </div>
+                    <div class="video-info">
+                        <a href="https://www.youtube.com/watch?v=m1XCbkoLijc">
+                            <p class="video-title">Little Hope - FULL GAME MEGA EPISODE</p></a>
+                        <a href="https://www.youtube.com/c/jacksepticeye">
+                            <p class="video-author">jacksepticeye</p></a>
+                        <p class="video-stats">3.8M views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="picture-row">
+                    <a href="https://www.youtube.com/watch?v=eTqI6P6iwbE"><img class="image1" src="pictures/image3.jpg"></a>
+                    <div class="keep-hovering">Keep hovering to play</div>
+                    <div class="video-time"> 58:45</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/c/JacksonCrawford"><img class="profile-picture" src="profile-pictures/image-author3.jpg"></a>
+                    </div>
+                    <div class="video-info">
+                        <a href="https://www.youtube.com/watch?v=eTqI6P6iwbE">
+                            <p class="video-title">A Conversation in Old English and Old Norse</p></a>
+                        <a href="https://www.youtube.com/c/JacksonCrawford">
+                            <p class="video-author">Jackson Crawford</p></a>
+                        <p class="video-stats">1.1M views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="picture-row">
+                    <a href="https://www.youtube.com/watch?v=fOg7BBRYXD8"><img class="image1" src="pictures/image4.jpg"></a>
+                    <div class="keep-hovering">Keep hovering to play</div>
+                    <div class="video-time"> 0:31</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/c/DolanDarker"><img class="profile-picture" src="profile-pictures/image-author4.jpg"></a>
+                    </div>
+                    <div class="video-info">
+                        <a href="https://www.youtube.com/watch?v=fOg7BBRYXD8">
+                            <p class="video-title">Walter White finds out his son is a Simp</p></a>
+                         <a href="https://www.youtube.com/c/DolanDarker">
+                            <p class="video-author">Dolan Darker</p></a>
+                        <p class="video-stats">3.2M views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="picture-row">
+                    <a href="https://www.youtube.com/watch?v=mzM8X9JNNXI"><img class="image1" src="pictures/image5.jpg"></a>
+                    <div class="keep-hovering">Keep hovering to play</div>
+                    <div class="video-time"> 01:52</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/c/SeLFlo"><img class="profile-picture" src="profile-pictures/image-author5.jpg"></a>
+                    </div>
+                    <div class="video-info">
+                        <a href="https://www.youtube.com/watch?v=mzM8X9JNNXI">
+                            <p class="video-title">*New* Agent Teaser?! Or Next Villain?! | VALORANT Episode 5 Cinematic Teaser Breakdown</p></a>
+                        <a href="https://www.youtube.com/c/SeLFlo">
+                            <p class="video-author">SelFlo</p></a>
+                        <p class="video-stats">28K views &#183; 1 day ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="picture-row">
+                    <a href="https://www.youtube.com/watch?v=TjtM9CCicA0"><img class="image1" src="pictures/image6.jpg"></a>
+                    <div class="keep-hovering">Keep hovering to play</div>
+                    <div class="video-time"> 1:04:33</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/user/misterhabbla1"><img class="profile-picture" src="profile-pictures/image-author6.jpg"></a>
+                    </div>
+                    <div class="video-info">
+                        <a href="https://www.youtube.com/watch?v=TjtM9CCicA0">
+                            <p class="video-title">[Gwent] KING OF HANDBUFF</p></a>
+                        <a href="https://www.youtube.com/user/misterhabbla1">
+                            <p class="video-author">misterhabbla1</p></a>
+                        <p class="video-stats">11K views &#183; 11 days ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="picture-row">
+                    <a href="https://www.youtube.com/watch?v=h8g9wfI9nGI"><img class="image1" src="pictures/image7.jpg"></a>
+                    <div class="keep-hovering">Keep hovering to play</div>
+                    <div class="video-time"> 17:16</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/c/MarkRober"><img class="profile-picture" src="profile-pictures/image-author7.jpg"></a>
+                    </div>
+                    <div class="video-info">
+                        <a href="https://www.youtube.com/watch?v=h8g9wfI9nGI">
+                            <p class="video-title">I’ve Got a HUGE Secret Hiding Behind This Fake Office</p></a>
+                        <a href="https://www.youtube.com/c/MarkRober">
+                            <p class="video-author">Mark Rober</p></a>
+                        <p class="video-stats">10M views &#183; 3 days ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="picture-row">
+                    <a href="https://www.youtube.com/watch?v=UXWckTAw3JY"><img class="image1" src="pictures/image8.jpg"></a>
+                    <div class="keep-hovering">Keep hovering to play</div>
+                    <div class="video-time"> 2:01:32</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/c/MontereyBayAquarium"><img class="profile-picture" src="profile-pictures/image-author1.jpg"></a>
+                    </div>
+                    <div class="video-info">
+                        <a href="https://www.youtube.com/watch?v=UXWckTAw3JY">
+                            <p class="video-title">2 Hours Of Chill Shrimp To Relax/Study/Work To | Lofi Hip Hop</p></a>
+                        <a href="https://www.youtube.com/c/MontereyBayAquarium">
+                            <p class="video-author">Monterey Bay Aquarium</p></a>
+                        <p class="video-stats">714K views &#183; 4 months ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+</body>
+
+
+</html>
